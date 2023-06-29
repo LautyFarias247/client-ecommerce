@@ -12,7 +12,7 @@ const Navbar = () => {
 				<Link href={'/'} className="font-monserrat font-bold text-5xl lg:mr-12">Blitz</Link>
 				<div className={`${isOpen ? 'flex' :'hidden'} z-10 m-0 left-0 flex-col-reverse w-full justify-between absolute top-16 bg-azul lg:z-0 lg:flex lg:flex-row lg:bg-none lg:relative lg:top-0`}>
 					<div className="flex flex-col lg:flex-row lg:items-center lg:justify-between lg:w-80">
-						<Link href={"#"}>Destilados</Link>
+						<Link href={"/products?category=Destilados"}>Destilados</Link>
 						<Link href={"#"}>Vinos</Link>
 						<Link href={"#"}>Sin alcohol</Link>
 					</div>
